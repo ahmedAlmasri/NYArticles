@@ -1,0 +1,12 @@
+# we need to disable this rule issue related https://github.com/realm/SwiftLint/issues/3046 
+disabled_rules:
+  - vertical_parameter_alignment
+excluded:
+  - Pods
+  - Modules/**/Pods
+  - Modules/NetworkLayer/NetworkLayerTests/Providers/Mock/MockURLProtocol.swift
+vertical_whitespace:
+  max_empty_lines: 1
+trailing_whitespace:
+  ignores_empty_lines: true
+  ignores_comments: true
