@@ -101,6 +101,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		400ED8A5247895DA00167598 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4056E5292476F4E600DC79D0 /* SceneDelegate.swift */,
+				4056E5272476F4E600DC79D0 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		4056E51B2476F4E600DC79D0 = {
 			isa = PBXGroup;
 			children = (
@@ -126,8 +135,7 @@
 		4056E5262476F4E600DC79D0 /* NYArticles */ = {
 			isa = PBXGroup;
 			children = (
-				4056E5272476F4E600DC79D0 /* AppDelegate.swift */,
-				4056E5292476F4E600DC79D0 /* SceneDelegate.swift */,
+				400ED8A5247895DA00167598 /* Application */,
 				4056E52B2476F4E600DC79D0 /* ViewController.swift */,
 				4056E52D2476F4E600DC79D0 /* Main.storyboard */,
 				4056E5302476F4E800DC79D0 /* Assets.xcassets */,
