@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.2.0)
+  - NetworkLayer (0.0.1):
+    - Alamofire (~> 5.0)
+    - RxSwift
+  - NetworkLayer/UnitTests (0.0.1):
+    - Alamofire (~> 5.0)
+    - Nimble
+    - RxBlocking
+    - RxSwift
+  - Nimble (8.0.9)
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - NetworkLayer (from `Modules/NetworkLayer`)
+  - NetworkLayer/UnitTests (from `Modules/NetworkLayer`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Nimble
+    - RxBlocking
+    - RxSwift
+
+EXTERNAL SOURCES:
+  NetworkLayer:
+    :path: Modules/NetworkLayer
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  NetworkLayer: 9f6ade4c664359f1784b6a1d4e4ba3d161abadec
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 192c52419c563b67ea0b0220a47e7b4667b66f50
+
+COCOAPODS: 1.9.1
