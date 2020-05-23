@@ -13,14 +13,14 @@
 
 ### Features
 
-- [x] modular architecture using pod spec.
-- [x] Reactive programing.
-- [x] Dependency injection use swinject.
-- [x] multi layer architecture.
-- [x] repository pattern.
-- [x] unit Tested covered ~ 90%.
-- [x] code coverage report.
-- [x] test cases report.
+- [ ] modular architecture using pod spec.
+- [ ] Reactive programing.
+- [ ] Dependency injection use swinject.
+- [ ] multi layer architecture.
+- [ ] repository pattern.
+- [ ] unit Tested covered ~ 90%.
+- [ ] code coverage report.
+- [ ] test cases report.
 
 ### Run Sample 
 1. Clone this repository.
