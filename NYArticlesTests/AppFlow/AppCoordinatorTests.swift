@@ -26,6 +26,7 @@ class AppCoordinatorTests: XCTestCase {
 	func test_start() {
 		coordinator.start()
 		XCTAssertNotNil(coordinator.window?.rootViewController)
+		XCTAssertEqual(coordinator.childCoordinators.count, 1)
 	}
 
 }

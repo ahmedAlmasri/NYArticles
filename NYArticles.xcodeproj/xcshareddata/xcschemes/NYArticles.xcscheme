@@ -50,30 +50,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4056E5392476F4E900DC79D0"
-               BuildableName = "NYArticlesTests.xctest"
-               BlueprintName = "NYArticlesTests"
-               ReferencedContainer = "container:NYArticles.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4056E5442476F4E900DC79D0"
-               BuildableName = "NYArticlesUITests.xctest"
-               BlueprintName = "NYArticlesUITests"
-               ReferencedContainer = "container:NYArticles.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "EF30E6E44470EE6FF2FAF6DD2C781C34"
                BuildableName = "NetworkLayer-Unit-UnitTests.xctest"
                BlueprintName = "NetworkLayer-Unit-UnitTests"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "400ED9162479A17500167598"
+               BuildableName = "NYArticlesTests.xctest"
+               BlueprintName = "NYArticlesTests"
+               ReferencedContainer = "container:NYArticles.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
