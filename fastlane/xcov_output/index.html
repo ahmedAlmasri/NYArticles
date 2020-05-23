@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+<!--
+xcov - Xcode code coverage without hassle
+A tool developed by Carlos Vidal @carlostify
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>xcov - Code coverage report</title>
+  <link rel="stylesheet" media="screen" href="resources/bootstrap.min.css" />
+  <link rel="stylesheet" media="screen" href="resources/opensans.css" />
+  <link rel="stylesheet" media="all" href="resources/main.css" />
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="resources/jquery.min.js"></script>
+  <script src="resources/bootstrap.min.js"></script>
+  <script src="resources/main.js"></script>
+</head>
+<body>
+  <!-- NavBar template starts here -->
+  <nav class="navbar navbar-fixed-top navbar-inverse" style=" border-bottom-width: 0px;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 text-left">
+          <img class="logo" src="resources/xcov_logo.png"/>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- NavBar template ends here -->
+  <!-- Body template starts here -->
+  <div class="container-fluid container-body">
+    <!-- Coverage resume starts here -->
+    <div class="row coverage-summary">
+        <div class="col-md-12 text-center">
+          <div class="summary-counter">
+            89.64%
+          </div>
+          <div class="summary-description" style="color: #1FCB32;">
+            Overall coverage is good
+          </div>
+        </div>
+    </div>
+    <!-- Coverage resume ends here -->
+        <!-- Target details start here -->
+    <div class="row target-details" target-id="aa04e5913b6772f77ddeb6894fb05b5d3e14259f">
+      <!-- Target name -->
+      <div class="col-xs-9 col-md-offset-1 col-md-8 col-lg-offset-2 col-lg-6 target-name">
+        NYArticles.app
+      </div>
+      <div class="col-xs-3 col-md-2 col-lg-2 text-right target-percentage">
+        84.17% <span><div class="circle" style="background-color: #1FCB32;"></div></span>
+      </div>
+    </div>
+    <!-- Target files -->
+    <div class="files-wrapper" id="aa04e5913b6772f77ddeb6894fb05b5d3e14259f" style="display: none;">
+    <div class="row target-files">
+      <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="64aa73efd32a357782ea417eb7421b1b4a00b858">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            DetailsController.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            33.33% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="64aa73efd32a357782ea417eb7421b1b4a00b858" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.DetailsController.contentView : NYArticles.DetailsView
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsController.init(viewModel: NYArticles.DetailsViewModel) -&gt; NYArticles.DetailsController
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NYArticles.DetailsController&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #1 () -&gt; Swift.String in NYArticles.DetailsController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NYArticles.DetailsController&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsController.__deallocating_deinit
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsController.loadView() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsController.viewDidLoad() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsController.(bind in _588EB0B8128AC4D1167733CEF544EED6)() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="7ed895ffd7cfb4bbf06add292c021882b290d79a">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            HomeCell.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            50.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="7ed895ffd7cfb4bbf06add292c021882b290d79a" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            static NYArticles.HomeCell.identifier.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            static NYArticles.HomeCell.nib.getter : __C.UINib
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeCell.bind(article: NYArticles.Article) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="0756100c7d96dcb53321df5a25bd2998882ef4aa">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            DetailsView.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            73.49% <span><div class="circle-sm" style="background-color: #FCFF00;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="0756100c7d96dcb53321df5a25bd2998882ef4aa" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.DetailsView.(disposeBag in _162AFF2F4CC687E7A5921BF551B51F77) : RxSwift.DisposeBag
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 () -&gt; __C.UIStackView in NYArticles.DetailsView.(mainStackView in _162AFF2F4CC687E7A5921BF551B51F77).getter : __C.UIStackView
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 () -&gt; __C.UILabel in NYArticles.DetailsView.titleLabel.getter : __C.UILabel
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 () -&gt; __C.UILabel in NYArticles.DetailsView.abstractLabel.getter : __C.UILabel
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 () -&gt; __C.UILabel in NYArticles.DetailsView.sectionLabel.getter : __C.UILabel
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 () -&gt; __C.UILabel in NYArticles.DetailsView.dateLabel.getter : __C.UILabel
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 () -&gt; __C.UIStackView in NYArticles.DetailsView.publisherStackView.getter : __C.UIStackView
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsView.init() -&gt; NYArticles.DetailsView
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NYArticles.DetailsView&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsView.(setupViews in _162AFF2F4CC687E7A5921BF551B51F77)() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (SnapKit.ConstraintMaker) -&gt; () in NYArticles.DetailsView.(setupViews in _162AFF2F4CC687E7A5921BF551B51F77)() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsView.bind(with: NYArticles.DetailsViewModel.Output) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (NYArticles.DetailsView, NYArticles.Article) -&gt; () in NYArticles.DetailsView.bind(with: NYArticles.DetailsViewModel.Output) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="0c3af713095d0568da300d86caa8db31bc4174a4">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            Environment.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            75.00% <span><div class="circle-sm" style="background-color: #FCFF00;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="0c3af713095d0568da300d86caa8db31bc4174a4" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.Environment.value.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            85.71% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #1 () -&gt; Swift.String in NYArticles.Environment.value.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="9df397c4e2693fbfb2537f0c8035e48520d3e240">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            HomeView.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            80.23% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="9df397c4e2693fbfb2537f0c8035e48520d3e240" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.HomeView.(disposeBag in _AD3ACAF8B49564DD1D979113218628E2) : RxSwift.DisposeBag
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 () -&gt; __C.UITableView in NYArticles.HomeView.(tableView in _AD3ACAF8B49564DD1D979113218628E2).getter : __C.UITableView
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeView.selection.getter : RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Foundation.IndexPath&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeView.init() -&gt; NYArticles.HomeView
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NYArticles.HomeView&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #1 () -&gt; Swift.String in NYArticles.HomeView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NYArticles.HomeView&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeView.(setupViews in _AD3ACAF8B49564DD1D979113218628E2)() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeView.(configureTableView in _AD3ACAF8B49564DD1D979113218628E2)() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeView.bind(with: NYArticles.HomeViewModel.Output, controller: NYArticles.HomeController) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (Swift.Int, NYArticles.Article, NYArticles.HomeCell) -&gt; () in NYArticles.HomeView.bind(with: NYArticles.HomeViewModel.Output, controller: NYArticles.HomeController) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeView.(didSelected in _AD3ACAF8B49564DD1D979113218628E2)(NYArticles.HomeController) -&gt; RxCocoa.Binder&lt;NYArticles.Article&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeView.(loading in _AD3ACAF8B49564DD1D979113218628E2)() -&gt; RxCocoa.Binder&lt;Swift.Bool&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (NYArticles.HomeView, Swift.Bool) -&gt; () in NYArticles.HomeView.(loading in _AD3ACAF8B49564DD1D979113218628E2)() -&gt; RxCocoa.Binder&lt;Swift.Bool&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeView.(errorBinding in _AD3ACAF8B49564DD1D979113218628E2)(__C.UIViewController) -&gt; RxCocoa.Binder&lt;Swift.Error&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (NYArticles.HomeView, Swift.Error) -&gt; () in NYArticles.HomeView.(errorBinding in _AD3ACAF8B49564DD1D979113218628E2)(__C.UIViewController) -&gt; RxCocoa.Binder&lt;Swift.Error&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="b1960ef4336b9477b1a268aa60a1cced81cbfcf2">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            UIView+loading.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            81.25% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="b1960ef4336b9477b1a268aa60a1cced81cbfcf2" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NYArticles):__C.UIView.showLoader(_: Swift.Optional&lt;__C.UIColor&gt;, indicatorColor: __C.UIColor) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NYArticles):__C.UIView.dismissLoader() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="729916c9e7c37a3e293ac288680c013330363461">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            ErrorTracker.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            84.21% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="729916c9e7c37a3e293ac288680c013330363461" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.ErrorTracker.(_subject in _D96984F1F51ED78DDA995256644AB11E) : RxSwift.PublishSubject&lt;Swift.Error&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ErrorTracker.trackError&lt;A where A: RxSwift.ObservableConvertibleType&gt;(from: A) -&gt; RxSwift.Observable&lt;A.Element&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ErrorTracker.asSharedSequence() -&gt; RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.Error&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ErrorTracker.asObservable() -&gt; RxSwift.Observable&lt;Swift.Error&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ErrorTracker.(onError in _D96984F1F51ED78DDA995256644AB11E)(Swift.Error) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ErrorTracker.__deallocating_deinit
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NYArticles):RxSwift.ObservableConvertibleType.trackError(NYArticles.ErrorTracker) -&gt; RxSwift.Observable&lt;A.Element&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="36759c04b754c5fd7b947a7f9435ad67795b196a">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            HomeController.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            85.29% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="36759c04b754c5fd7b947a7f9435ad67795b196a" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.HomeController.(contentView in _67B7E64C92A314036AA27CB3D6A2809C) : NYArticles.HomeView
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeController.init(viewModel: NYArticles.HomeViewModel) -&gt; NYArticles.HomeController
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NYArticles.HomeController&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #1 () -&gt; Swift.String in NYArticles.HomeController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NYArticles.HomeController&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeController.loadView() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeController.viewDidLoad() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeController.viewWillAppear(Swift.Bool) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeController.(bind in _67B7E64C92A314036AA27CB3D6A2809C)() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (Swift.Array&lt;Any&gt;) -&gt; () in NYArticles.HomeController.(bind in _67B7E64C92A314036AA27CB3D6A2809C)() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="0b4b6e455188d63c73aad6dc8104e8d6277ecc5f">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            Assembler.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            85.71% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="0b4b6e455188d63c73aad6dc8104e8d6277ecc5f" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 () -&gt; Swinject.Assembler in variable initialization expression of static (extension in NYArticles):Swinject.Assembler.shared : Swinject.Assembler
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #1 () throws -&gt; Swift.Array&lt;Swinject.Assembly&gt; in closure #1 () -&gt; Swinject.Assembler in variable initialization expression of static (extension in NYArticles):Swinject.Assembler.shared : Swinject.Assembler
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="b5340fe076131fb7f0591de6a3f0a2d0e163ed71">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            DetailsViewModel.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="b5340fe076131fb7f0591de6a3f0a2d0e163ed71" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsViewModel.init(article: NYArticles.Article) -&gt; NYArticles.DetailsViewModel
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsViewModel.transform() -&gt; NYArticles.DetailsViewModel.Output
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="f7dac5d8c318aba2257f6c349a8f612d13934603">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            ArticlesEndPoint.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="f7dac5d8c318aba2257f6c349a8f612d13934603" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ArticlesEndPoint.path.getter : NetworkLayer.Path
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="be09a7870f515f3d174676ceba6a7f62d414f7ab">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            MainInterceptor.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="be09a7870f515f3d174676ceba6a7f62d414f7ab" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.MainInterceptor.adapt(_: Foundation.URLRequest, for: Alamofire.Session, completion: (Swift.Result&lt;Foundation.URLRequest, Swift.Error&gt;) -&gt; ()) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="0ea5c95a0bab8dc1944490408af8bb95eca56d4b">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            HomeAssembly.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="0ea5c95a0bab8dc1944490408af8bb95eca56d4b" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.AuthAssembly.assemble(container: Swinject.Container) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="c7db12392818f5f5f37e983d889f9160f4dd7b94">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            ProviderAssembly.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="c7db12392818f5f5f37e983d889f9160f4dd7b94" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ProviderAssembly.init() -&gt; NYArticles.ProviderAssembly
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ProviderAssembly.assemble(container: Swinject.Container) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (()) -&gt; NetworkLayer.RequestProvider in NYArticles.ProviderAssembly.assemble(container: Swinject.Container) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="a10d8233436d6bbfefb6975710339ac8feaf55da">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            ArticlesAssembly.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="a10d8233436d6bbfefb6975710339ac8feaf55da" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ArticlesAssembly.init() -&gt; NYArticles.ArticlesAssembly
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ArticlesAssembly.assemble(container: Swinject.Container) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="e2a885d0bc714224ff3647926956706c7f6cbead">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            AppCoordinator.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="e2a885d0bc714224ff3647926956706c7f6cbead" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.AppCoordinator.childCoordinators : Swift.Array&lt;NYArticles.Coordinator&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.AppCoordinator.init(window: __C.UIWindow) -&gt; NYArticles.AppCoordinator
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.AppCoordinator.start() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.AppCoordinator.showHome() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="bada3e4aafbf897faa9054a5eede2bf804fb6115">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            HomeCoordinator.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="bada3e4aafbf897faa9054a5eede2bf804fb6115" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.HomeCoordinator.childCoordinators : Swift.Array&lt;NYArticles.Coordinator&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeCoordinator.init(navigationController: __C.UINavigationController) -&gt; NYArticles.HomeCoordinator
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeCoordinator.start() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeCoordinator.removeDetails() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeCoordinator.showDetails(with: NYArticles.Article) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="0f92f3ec211848882fca3eb4b6aa1accd83e7406">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            ActivityIndicator.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="0f92f3ec211848882fca3eb4b6aa1accd83e7406" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.ActivityIndicator.(_lock in _14639A095C3D10B1E5D6E1544A7EFE00) : __C.NSRecursiveLock
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.ActivityIndicator.(_behavior in _14639A095C3D10B1E5D6E1544A7EFE00) : RxRelay.BehaviorRelay&lt;Swift.Bool&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ActivityIndicator.init() -&gt; NYArticles.ActivityIndicator
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ActivityIndicator.(trackActivityOfObservable in _14639A095C3D10B1E5D6E1544A7EFE00)&lt;A where A: RxSwift.ObservableConvertibleType&gt;(A) -&gt; RxSwift.Observable&lt;A.Element&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (A.Element) -&gt; () in NYArticles.ActivityIndicator.(trackActivityOfObservable in _14639A095C3D10B1E5D6E1544A7EFE00)&lt;A where A: RxSwift.ObservableConvertibleType&gt;(A) -&gt; RxSwift.Observable&lt;A.Element&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #2 (Swift.Error) -&gt; () in NYArticles.ActivityIndicator.(trackActivityOfObservable in _14639A095C3D10B1E5D6E1544A7EFE00)&lt;A where A: RxSwift.ObservableConvertibleType&gt;(A) -&gt; RxSwift.Observable&lt;A.Element&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #3 () -&gt; () in NYArticles.ActivityIndicator.(trackActivityOfObservable in _14639A095C3D10B1E5D6E1544A7EFE00)&lt;A where A: RxSwift.ObservableConvertibleType&gt;(A) -&gt; RxSwift.Observable&lt;A.Element&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ActivityIndicator.(subscribed in _14639A095C3D10B1E5D6E1544A7EFE00)() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ActivityIndicator.(sendStopLoading in _14639A095C3D10B1E5D6E1544A7EFE00)() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ActivityIndicator.asSharedSequence() -&gt; RxCocoa.SharedSequence&lt;RxCocoa.DriverSharingStrategy, Swift.Bool&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NYArticles):RxSwift.ObservableConvertibleType.trackActivity(NYArticles.ActivityIndicator) -&gt; RxSwift.Observable&lt;A.Element&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="81a87695b1987156328e1a8180663f8e11d7d56d">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            UIViewController+Resolve.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="81a87695b1987156328e1a8180663f8e11d7d56d" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            static (extension in NYArticles):__C.UIViewController.resolve() -&gt; Self
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="b295c00889dd5e47d03713dd2c23a10644042be3">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            HomeViewModel.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="b295c00889dd5e47d03713dd2c23a10644042be3" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeViewModel.init(repository: NYArticles.ArticlesRepositoryProtocol) -&gt; NYArticles.HomeViewModel
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.HomeViewModel.transform(input: NYArticles.HomeViewModel.Input) -&gt; NYArticles.HomeViewModel.Output
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (NYArticles.ArticlesWrapper) -&gt; Swift.Array&lt;NYArticles.Article&gt; in NYArticles.HomeViewModel.transform(input: NYArticles.HomeViewModel.Input) -&gt; NYArticles.HomeViewModel.Output
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #2 (Foundation.IndexPath, Swift.Array&lt;NYArticles.Article&gt;) -&gt; NYArticles.Article in NYArticles.HomeViewModel.transform(input: NYArticles.HomeViewModel.Input) -&gt; NYArticles.HomeViewModel.Output
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="f7c3683235edbfd6edef1ae8d3da653ace1612e1">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            RemoteArticlesDataSource.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="f7c3683235edbfd6edef1ae8d3da653ace1612e1" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.RemoteArticlesDataSource.init(provider: NetworkLayer.RequestProvider) -&gt; NYArticles.RemoteArticlesDataSource
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.RemoteArticlesDataSource.getAll() -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, NetworkLayer.Response&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="21273cdea2f43828a6a92dcf8211545701cb088e">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            ArticlesRepository.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="21273cdea2f43828a6a92dcf8211545701cb088e" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ArticlesRepository.init(remoteDataSource: NYArticles.RemoteArticlesDataSourceProtocol) -&gt; NYArticles.ArticlesRepository
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.ArticlesRepository.getAll() -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, NYArticles.ArticlesWrapper&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="f9048efcfa99f5a0dbd0205978de1deeb4e7337f">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            DetailsCoordinator.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="f9048efcfa99f5a0dbd0205978de1deeb4e7337f" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NYArticles.DetailsCoordinator.childCoordinators : Swift.Array&lt;NYArticles.Coordinator&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsCoordinator.init(navigationController: __C.UINavigationController, article: NYArticles.Article) -&gt; NYArticles.DetailsCoordinator
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NYArticles.DetailsCoordinator.start() -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+
+      </div>
+      <!-- File row ends here -->
+    </div>
+    </div>
+    <!-- Target details end here -->
+    <!-- Target details start here -->
+    <div class="row target-details" target-id="526b4c5bd34384277a63a4accf72ad93805eb1bd">
+      <!-- Target name -->
+      <div class="col-xs-9 col-md-offset-1 col-md-8 col-lg-offset-2 col-lg-6 target-name">
+        NetworkLayer.framework
+      </div>
+      <div class="col-xs-3 col-md-2 col-lg-2 text-right target-percentage">
+        95.12% <span><div class="circle" style="background-color: #1FCB32;"></div></span>
+      </div>
+    </div>
+    <!-- Target files -->
+    <div class="files-wrapper" id="526b4c5bd34384277a63a4accf72ad93805eb1bd" style="display: none;">
+    <div class="row target-files">
+      <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="2b4e8a75f4638ed28867c79751a365d4c9823cfc">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            Rx+ResponseMap.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            52.94% <span><div class="circle-sm" style="background-color: #FF9C00;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="2b4e8a75f4638ed28867c79751a365d4c9823cfc" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):RxSwift.PrimitiveSequence&lt; where A == RxSwift.SingleTrait, B == NetworkLayer.Response&gt;.map&lt;A&gt;(to: A1.Type) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, A1&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (NetworkLayer.Response) throws -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, A1&gt; in (extension in NetworkLayer):RxSwift.PrimitiveSequence&lt; where A == RxSwift.SingleTrait, B == NetworkLayer.Response&gt;.map&lt;A&gt;(to: A1.Type) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, A1&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):RxSwift.ObservableType&lt; where A.Element == NetworkLayer.Response&gt;.map&lt;A&gt;(to: A1.Type) -&gt; RxSwift.Observable&lt;A1&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (NetworkLayer.Response) throws -&gt; RxSwift.Observable&lt;A1&gt; in (extension in NetworkLayer):RxSwift.ObservableType&lt; where A.Element == NetworkLayer.Response&gt;.map&lt;A&gt;(to: A1.Type) -&gt; RxSwift.Observable&lt;A1&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            0.00% <span><div class="circle-sm" style="background-color: #FF0000;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="2c7b47d850d286519c8e2e084e93fcd6c806695e">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            Response.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            91.30% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="2c7b47d850d286519c8e2e084e93fcd6c806695e" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Response.description.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #1 () throws -&gt; Swift.String in NetworkLayer.Response.description.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #2 () throws -&gt; Swift.Int in NetworkLayer.Response.description.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #3 () throws -&gt; Swift.Int in NetworkLayer.Response.description.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #4 () throws -&gt; Swift.String in NetworkLayer.Response.description.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Response.debugDescription.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Response.jsonString.getter : Swift.Optional&lt;__C.NSString&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Response.json.getter : Swift.Optional&lt;Any&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Response.init(urlRequest: Swift.Optional&lt;Foundation.URLRequest&gt;, data: Swift.Optional&lt;Foundation.Data&gt;, httpURLResponse: Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, factory: Swift.Optional&lt;NetworkLayer.Factory&gt;) -&gt; NetworkLayer.Response
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Response.body&lt;A&gt;(types: A.Type) throws -&gt; A
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            78.95% <span><div class="circle-sm" style="background-color: #FCFF00;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="a44ab8921ded94ed951f23e5533c1037ea0c47f4">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            CodableConverter.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            92.59% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="a44ab8921ded94ed951f23e5533c1037ea0c47f4" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.CodableConverter.init(_: Foundation.JSONDecoder, type: A.Type) -&gt; NetworkLayer.CodableConverter&lt;A&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.CodableConverter.convert(value: Foundation.Data) throws -&gt; A
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            90.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):Swift.Decodable.init(jsonData: Foundation.Data, jsonDecoder: Foundation.JSONDecoder) throws -&gt; A
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="e656e77c753485fa4ec0da9c3e12cdcd535df331">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            RequestProvider.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="e656e77c753485fa4ec0da9c3e12cdcd535df331" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            variable initialization expression of NetworkLayer.RequestProvider.successRange : Swift.ClosedRange&lt;Swift.Int&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.RequestProvider.init(baseUrl: Swift.String, session: Alamofire.Session) -&gt; NetworkLayer.RequestProvider
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.RequestProvider.interceptor(NetworkLayer.Interceptor) -&gt; Self
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.RequestProvider.addConverterFactory(NetworkLayer.Factory) -&gt; NetworkLayer.RequestProvider
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.RequestProvider.request(endPoint: NetworkLayer.EndPoint, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, callback: (Swift.Result&lt;NetworkLayer.Response, Swift.Error&gt;) -&gt; ()) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #1 () throws -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt; in NetworkLayer.RequestProvider.request(endPoint: NetworkLayer.EndPoint, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, callback: (Swift.Result&lt;NetworkLayer.Response, Swift.Error&gt;) -&gt; ()) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in NetworkLayer.RequestProvider.request(endPoint: NetworkLayer.EndPoint, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, callback: (Swift.Result&lt;NetworkLayer.Response, Swift.Error&gt;) -&gt; ()) -&gt; ()
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="87271685f79f996316343e63de6d4c6a52bb8d97">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            Converter.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="87271685f79f996316343e63de6d4c6a52bb8d97" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Converter.convert(value: A) throws -&gt; B
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #1 () -&gt; Swift.String in NetworkLayer.Converter.convert(value: A) throws -&gt; B
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Factory.className.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Factory.responseBodyConverter&lt;A&gt;(type: A.Type) -&gt; Swift.Optional&lt;NetworkLayer.Converter&lt;Foundation.Data, A&gt;&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            implicit closure #1 () -&gt; Swift.String in NetworkLayer.Factory.responseBodyConverter&lt;A&gt;(type: A.Type) -&gt; Swift.Optional&lt;NetworkLayer.Converter&lt;Foundation.Data, A&gt;&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="b063fba06acd662d1dc36dc16c3061f681f23d77">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            Data+JSON.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="b063fba06acd662d1dc36dc16c3061f681f23d77" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):Foundation.Data.jsonString.getter : Swift.Optional&lt;__C.NSString&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):Foundation.Data.json.getter : Swift.Optional&lt;Any&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="5fd573cc5133529f14752a4c44b09c3e92d55822">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            AFDataResponse+Response.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="5fd573cc5133529f14752a4c44b09c3e92d55822" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):Alamofire.DataResponse.toResponse(_: Swift.Optional&lt;NetworkLayer.Factory&gt;, data: Swift.Optional&lt;Foundation.Data&gt;) -&gt; NetworkLayer.Response
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="d7e3b62dcc2e6a5005e8f71b00e27b9605efdd88">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            EndPint.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="d7e3b62dcc2e6a5005e8f71b00e27b9605efdd88" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Path.path.getter : Swift.String
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Path.httpMethod.getter : Alamofire.HTTPMethod
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.Path.encoding.getter : Alamofire.ParameterEncoding
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):NetworkLayer.EndPoint.encoding.getter : Alamofire.ParameterEncoding
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):NetworkLayer.EndPoint.header.getter : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):NetworkLayer.EndPoint.httpMethod.getter : Alamofire.HTTPMethod
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):NetworkLayer.EndPoint.fullUrl(Swift.String) throws -&gt; Foundation.URL
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="f1710abbc8e4a871d4fde4de8b10f53523edf590">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            CodableConverterFactory.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="f1710abbc8e4a871d4fde4de8b10f53523edf590" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.CodableConverterFactory.init(jsonDecoder: Foundation.JSONDecoder) -&gt; NetworkLayer.CodableConverterFactory
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            NetworkLayer.CodableConverterFactory.responseBodyConverter&lt;A&gt;(type: A.Type) -&gt; Swift.Optional&lt;NetworkLayer.Converter&lt;Foundation.Data, A&gt;&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+        <!-- Single file starts here -->
+        
+        <div class="row file-row" file-id="9b790da225bec25946a7cc09969690495dae7a74">
+        
+          <div class="col-xs-10 col-md-10 col-lg-10">
+            <span><img class="file-icon" src="resources/file_swift.png"/></span>
+            RxRequestProvider.swift
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <div class="functions-wrapper" id="9b790da225bec25946a7cc09969690495dae7a74" style="display: none;">
+                <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            (extension in NetworkLayer):RxSwift.Reactive&lt;A where A: NetworkLayer.RequestProvider&gt;.request(endPoint: NetworkLayer.EndPoint, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, NetworkLayer.Response&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 ((RxSwift.SingleEvent&lt;NetworkLayer.Response&gt;) -&gt; ()) -&gt; RxSwift.Disposable in (extension in NetworkLayer):RxSwift.Reactive&lt;A where A: NetworkLayer.RequestProvider&gt;.request(endPoint: NetworkLayer.EndPoint, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, NetworkLayer.Response&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+        <!-- Single function starts here-->
+        <div class="row function-row">
+          <div class="col-xs-10 col-md-10 col-lg-10 function-name">
+            closure #1 (Swift.Result&lt;NetworkLayer.Response, Swift.Error&gt;) -&gt; () in closure #1 ((RxSwift.SingleEvent&lt;NetworkLayer.Response&gt;) -&gt; ()) -&gt; RxSwift.Disposable in (extension in NetworkLayer):RxSwift.Reactive&lt;A where A: NetworkLayer.RequestProvider&gt;.request(endPoint: NetworkLayer.EndPoint, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, NetworkLayer.Response&gt;
+          </div>
+          <div class="col-xs-2 col-md-2 col-lg-2 text-right">
+            100.00% <span><div class="circle-sm" style="background-color: #1FCB32;"></div></span>
+          </div>
+        </div>
+        <!-- Single function ends here -->
+
+        </div>
+        <!-- Single file ends here -->
+
+      </div>
+      <!-- File row ends here -->
+    </div>
+    </div>
+    <!-- Target details end here -->
+
+    <!-- Footer starts here -->
+    <div class="row footer">
+      <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 text-center">
+        xcov - Xcode coverage reports without hassle - A tool developed by
+        <a href="https://github.com/nakiostudio" target="_blank">Carlos Vidal</a> -
+        <a href="https://twitter.com/carlostify" target="_blank">@carlostify</a>
+      </div>
+    </div>
+    <!-- Footer ends here -->
+  </div>
+  <!-- Body template ends here -->
+</body>
+</html>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='NYArticlesTests.xctest' tests='41' failures='0'>
+  <testsuite name='NetworkLayer_Unit_UnitTests.CodableConverterTests' tests='3' failures='0'>
+    <testcase classname='NetworkLayer_Unit_UnitTests.CodableConverterTests' name='test_invalid_format_type' time='0.006'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.CodableConverterTests' name='test_json_valid_Type' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.CodableConverterTests' name='test_not_valid_decodable_type' time='0.001'/>
+  </testsuite>
+  <testsuite name='NetworkLayer_Unit_UnitTests.ConverterTests' tests='3' failures='0'>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ConverterTests' name='test_converter_not_implemented' time='0.004'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ConverterTests' name='test_factory_className' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ConverterTests' name='test_factory_not_implemented' time='0.001'/>
+  </testsuite>
+  <testsuite name='NetworkLayer_Unit_UnitTests.EndPointPathTests' tests='3' failures='0'>
+    <testcase classname='NetworkLayer_Unit_UnitTests.EndPointPathTests' name='test_encoding_success' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.EndPointPathTests' name='test_path_method_success' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.EndPointPathTests' name='test_path_success' time='0.001'/>
+  </testsuite>
+  <testsuite name='NetworkLayer_Unit_UnitTests.EndPointTests' tests='5' failures='0'>
+    <testcase classname='NetworkLayer_Unit_UnitTests.EndPointTests' name='test_encoding_success' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.EndPointTests' name='test_full_url_failure' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.EndPointTests' name='test_full_url_success' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.EndPointTests' name='test_header_success' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.EndPointTests' name='test_method_success' time='0.001'/>
+  </testsuite>
+  <testsuite name='NetworkLayer_Unit_UnitTests.RequestProviderTests' tests='5' failures='0'>
+    <testcase classname='NetworkLayer_Unit_UnitTests.RequestProviderTests' name='test_request_add_factory' time='0.006'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.RequestProviderTests' name='test_request_add_Interceptor' time='0.002'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.RequestProviderTests' name='test_request_failure_status_code' time='0.017'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.RequestProviderTests' name='test_request_failure_url' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.RequestProviderTests' name='test_request_success' time='0.003'/>
+  </testsuite>
+  <testsuite name='NetworkLayer_Unit_UnitTests.ResponseTests' tests='10' failures='0'>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_description_withEmpty' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_description_withValues' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_json_success' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_jsonString_noData' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_jsonString_success' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_mapTo_error_decoding' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_mapTo_error_noData' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_mapTo_error_noFactory' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_mapTo_error_parserType' time='0.001'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.ResponseTests' name='test_mapTo_success' time='0.001'/>
+  </testsuite>
+  <testsuite name='NetworkLayer_Unit_UnitTests.RxRequestProviderTests' tests='2' failures='0'>
+    <testcase classname='NetworkLayer_Unit_UnitTests.RxRequestProviderTests' name='test_request_failure_status_code' time='0.006'/>
+    <testcase classname='NetworkLayer_Unit_UnitTests.RxRequestProviderTests' name='test_request_success' time='0.003'/>
+  </testsuite>
+  <testsuite name='NYArticlesTests.AppCoordinatorTests' tests='1' failures='0'>
+    <testcase classname='NYArticlesTests.AppCoordinatorTests' name='test_start' time='0.007'/>
+  </testsuite>
+  <testsuite name='NYArticlesTests.ArticlesRepositoryTests' tests='1' failures='0'>
+    <testcase classname='NYArticlesTests.ArticlesRepositoryTests' name='test_getAll_request' time='0.002'/>
+  </testsuite>
+  <testsuite name='NYArticlesTests.DetailsViewModelTests' tests='1' failures='0'>
+    <testcase classname='NYArticlesTests.DetailsViewModelTests' name='test_transform_trigger_getAll' time='0.002'/>
+  </testsuite>
+  <testsuite name='NYArticlesTests.HomeCoordinatorTests' tests='2' failures='0'>
+    <testcase classname='NYArticlesTests.HomeCoordinatorTests' name='test_show_signIn' time='0.004'/>
+    <testcase classname='NYArticlesTests.HomeCoordinatorTests' name='test_start' time='0.003'/>
+  </testsuite>
+  <testsuite name='NYArticlesTests.HomeViewModelTests' tests='4' failures='0'>
+    <testcase classname='NYArticlesTests.HomeViewModelTests' name='test_transform_getAll_trackError' time='0.002'/>
+    <testcase classname='NYArticlesTests.HomeViewModelTests' name='test_transform_getAll_trackFetching' time='0.001'/>
+    <testcase classname='NYArticlesTests.HomeViewModelTests' name='test_transform_selected_article' time='0.001'/>
+    <testcase classname='NYArticlesTests.HomeViewModelTests' name='test_transform_trigger_getAll' time='0.001'/>
+  </testsuite>
+  <testsuite name='NYArticlesTests.RemoteArticlesDataSourceTests' tests='1' failures='0'>
+    <testcase classname='NYArticlesTests.RemoteArticlesDataSourceTests' name='test_getAll_request' time='0.001'/>
+  </testsuite>
+</testsuites>
