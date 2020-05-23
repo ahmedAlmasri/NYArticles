@@ -5,12 +5,18 @@ target 'NYArticles' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 	pod 'NetworkLayer', :path => 'Modules/NetworkLayer', :testspecs  => ['UnitTests']
+	# DI
+	pod "SwinjectAutoregistration"
+	pod "Swinject"
+	# UI
+	pod "SnapKit"
 
-  # Pods for NYArticles
+	# RX
+	pod "RxCocoa"
 
   target 'NYArticlesTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'RxBlocking'
   end
 
   target 'NYArticlesUITests' do
