@@ -45,6 +45,10 @@ code coverage report
 ```
 fastlane ios cov
 ```
+### Test Result Reports on `feature/TestResult` branch
+
+* Test cases report [here](http://htmlpreview.github.io/?https://github.com/ahmedAlmasri/NYArticles/feature/TestResult/blob/fastlane/test_output/report.html)
+* Test coverage report [here](http://htmlpreview.github.io/?https://github.com/ahmedAlmasri/NYArticles/feature/TestResult/blob/fastlane/xcov_output/index.html)
 
 ### Build with
 * [RxSwift](https://github.com/ReactiveX/RxSwift) - Reactive framework
