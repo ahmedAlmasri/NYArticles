@@ -15,6 +15,7 @@
 
 - [x] modular architecture using pod spec.
 - [x] Reactive programing.
+- [x] Dependency injection use swinject.
 - [x] multi layer architecture.
 - [x] repository pattern.
 - [x] unit Tested covered ~ 90%.
@@ -52,6 +53,7 @@ fastlane ios cov
 
 ### Build with
 * [RxSwift](https://github.com/ReactiveX/RxSwift) - Reactive framework
+* [swinject](https://github.com/Swinject/Swinject) - Dependency injection
 * [Pod Spec](https://guides.cocoapods.org/making/specs-and-specs-repo.html) - PodSpec for modular architecture 
 
 ### Requirements
