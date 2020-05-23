@@ -67,11 +67,38 @@ class HomeViewModelTests: XCTestCase {
 		
 		XCTAssertNotNil(error)
 	}
+	func test_transform_selected_article() {
+	   let select = PublishSubject<IndexPath>()
+		let articles = createArticles()
+		repo.getAllResult = Single<ArticlesWrapper>.just(ArticlesWrapper(results: articles))
+	   let output = viewModel.transform(input: createInput(selection: select))
+	   // act
+	    output.selected.drive().disposed(by: disposeBag)
+		output.articles.drive().disposed(by: disposeBag)
+	   select.onNext(IndexPath(row: 1, section: 0))
+		let article = try? output.selected.toBlocking().first()
+
+		XCTAssertEqual("\(article!)", "\(articles[1])")
+	 }
 	
-	private func createInput(trigger: Observable<Void> = Observable.just(()))
+	private func createInput(trigger: Observable<Void> = Observable.just(()),
+							 selection: Observable<IndexPath> = Observable.never())
 		-> HomeViewModel.Input {
 			
-			HomeViewModel.Input(fetchTrigger: trigger.asDriver(onErrorJustReturn: ()))
+			HomeViewModel.Input(fetchTrigger: trigger.asDriver(onErrorJustReturn: ()),
+								selection: selection.asDriver(onErrorJustReturn: IndexPath(item: 0, section: 0)))
+	}
+	
+	private func createArticles() -> [Article] {
+	  return [
+		Article(publishedDate: "date 1", source: "source 1",
+				type: "type 1", title: "title 1", abstract: "abstract 1",
+				byline: "byline 1", section: "section 1", url: "url 1"),
+		Article(publishedDate: "date 2", source: "source 2",
+				type: "type 2", title: "title 2", abstract: "abstract 2",
+				byline: "byline 2", section: "section 2", url: "url 2")
+
+	  ]
 	}
 	
 	enum TestError: Error {

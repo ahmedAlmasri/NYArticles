@@ -19,12 +19,14 @@ class HomeViewModel {
 	
 	struct Input {
 		let fetchTrigger: Driver<Void>
-		//let selection: PublishSubject<Void>
+        let selection: Driver<IndexPath>
 	}
 	struct Output {
 		var articles: Driver<[Article]>
 		var error: Driver<Error>
 		let fetching: Driver<Bool>
+        let selected: Driver<Article>
+
 	}
 	
 	func transform(input: Input) -> Output {
@@ -41,7 +43,12 @@ class HomeViewModel {
 		let error = errorTracker.asDriver()
 		let fetching = activityIndicator.asDriver()
 		
-		return Output(articles: dataDrive, error: error, fetching: fetching)
+		let selected = input.selection
+				 .withLatestFrom(dataDrive) { (indexPath, articles) -> Article in
+					return articles[indexPath.row]
+				 }
+				 
+		return Output(articles: dataDrive, error: error, fetching: fetching, selected: selected)
 	}
 	
 }

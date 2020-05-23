@@ -19,8 +19,4 @@ target 'NYArticles' do
     pod 'RxBlocking'
   end
 
-  target 'NYArticlesUITests' do
-    # Pods for testing
-  end
-
 end

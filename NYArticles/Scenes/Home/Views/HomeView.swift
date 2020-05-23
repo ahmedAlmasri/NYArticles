@@ -22,6 +22,11 @@ final class HomeView: UIView {
 		return tableView
 	}()
 	
+	var selection: Driver<IndexPath> {
+		
+		return tableView.rx.itemSelected.asDriver()
+	}
+	
 	init() {
 		super.init(frame: .zero)
 		self.backgroundColor = .white
@@ -45,7 +50,7 @@ final class HomeView: UIView {
 		tableView.register(HomeCell.nib, forCellReuseIdentifier: HomeCell.identifier)
 	}
 	
-	func bind(with output: HomeViewModel.Output, controller: UIViewController) {
+	func bind(with output: HomeViewModel.Output, controller: HomeController) {
 		
 		output.articles.drive(tableView.rx
 			.items(cellIdentifier: HomeCell.identifier, cellType: HomeCell.self)) { _, viewModel, cell in
@@ -55,9 +60,19 @@ final class HomeView: UIView {
 		output.error.drive(errorBinding(controller)).disposed(by: disposeBag)
 		
 		output.fetching.drive(loading()).disposed(by: disposeBag)
+		output.selected.drive(didSelected(controller)).disposed(by: disposeBag)
 	}
-	private func loading() -> Binder<Bool> {
 	
+	private func didSelected(_ controller: HomeController) -> Binder<Article> {
+		
+		return Binder(self) { (_, article) in
+			
+			controller.delegate?.showDetails(with: article)
+		}
+	}
+	
+	private func loading() -> Binder<Bool> {
+		
 		return Binder(self) { (_, isLoading) in
 			
 			isLoading ? self.showLoader() : self.dismissLoader()

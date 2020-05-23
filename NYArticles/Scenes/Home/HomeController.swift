@@ -8,11 +8,19 @@
 
 import UIKit
 import RxCocoa
+
+protocol HomeControllerDelegate: class {
+	
+	func showDetails(with article: Article)
+}
+
 class HomeController: UIViewController {
 	
+	public weak var delegate: HomeControllerDelegate?
+
 	private let contentView = HomeView()
-	
 	private let viewModel: HomeViewModel
+	
 	init(viewModel: HomeViewModel) {
 		self.viewModel = viewModel
 		super.init(nibName: nil, bundle: nil)
@@ -35,12 +43,12 @@ class HomeController: UIViewController {
 		self.navigationItem.title = "Articles"
 	}
 	
-	func bind() {
+	private func bind() {
 		
 		let trigger = rx.sentMessage(#selector(UIViewController.viewDidLoad)).map {_ in }
 			.asDriver(onErrorJustReturn: ())
 		
-		let input = HomeViewModel.Input(fetchTrigger: trigger)
+		let input = HomeViewModel.Input(fetchTrigger: trigger, selection: contentView.selection)
 		
         let output = viewModel.transform(input: input)
 

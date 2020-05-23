@@ -18,14 +18,18 @@ public final class AppCoordinator: Coordinator {
 	
 	public init(window: UIWindow) {
 		self.window = window
-		self.navigationController = UINavigationController(rootViewController: HomeController.resolve())
+		self.navigationController = UINavigationController()
 	}
 	
 	public func start() {
-		
 		window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
-		
+		showHome()
 	}
-
+	
+	func showHome() {
+		let homeCoordinator = HomeCoordinator(navigationController: self.navigationController)
+		childCoordinators.append(homeCoordinator)
+		homeCoordinator.start()
+	}
 }

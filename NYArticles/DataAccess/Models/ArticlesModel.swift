@@ -21,5 +21,6 @@ struct Article: Decodable {
 	let abstract: String
 	let byline: String // 2
 	let section: String // 3 1
+	let url: String
 	
 }
