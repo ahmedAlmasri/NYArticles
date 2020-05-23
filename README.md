@@ -27,7 +27,7 @@
     ```
     git https://github.com/ahmedAlmasri/NYArticles.git
     ```
-2. Open `pod install` in terminal. 
+2. run `pod install` in terminal. 
 
 3. Open `NYArticles.xcworkspace` in Xcode. 
 
