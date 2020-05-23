@@ -17,7 +17,7 @@ public class ProviderAssembly: Assembly {
 		container.autoregister(RequestProvider.self) { _ -> RequestProvider in
 			let decoder = JSONDecoder()
 			decoder.keyDecodingStrategy = .convertFromSnakeCase
-			return RequestProvider(baseUrl: "http://api.nytimes.com/svc/mostpopular/v2/")
+			return RequestProvider(baseUrl: Environment.apiURL.value).interceptor(MainInterceptor())
 				.addConverterFactory(CodableConverterFactory(jsonDecoder: decoder))
 		}
 		

@@ -1,0 +1,15 @@
+//
+//  develop.xcconfig
+//  NYArticles
+//
+//  Created by Ahmad Almasri on 5/23/20.
+//  Copyright © 2020 Ahmad Almasri. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-NYArticles/Pods-NYArticles.debug.xcconfig"
+SLASH = /
+API_VERSION = v2
+API_URL = http:$(SLASH)/api.nytimes.com/svc/mostpopular/$(API_VERSION)/
+API_KEY = JoaFmN7GlFB0c40vEDzxcc2rYHnTGv8m

@@ -31,6 +31,8 @@
 		400ED8F4247959D500167598 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400ED8F3247959D500167598 /* Coordinator.swift */; };
 		400ED8F6247959FF00167598 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400ED8F5247959FF00167598 /* AppCoordinator.swift */; };
 		400ED8F924795AC700167598 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400ED8F824795AC700167598 /* AppCoordinatorTests.swift */; };
+		400ED8FC24795CB300167598 /* MainInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400ED8FB24795CB300167598 /* MainInterceptor.swift */; };
+		400ED901247960AB00167598 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400ED900247960AB00167598 /* Environment.swift */; };
 		4056E5282476F4E600DC79D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056E5272476F4E600DC79D0 /* AppDelegate.swift */; };
 		4056E52A2476F4E600DC79D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056E5292476F4E600DC79D0 /* SceneDelegate.swift */; };
 		4056E52C2476F4E600DC79D0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056E52B2476F4E600DC79D0 /* HomeController.swift */; };
@@ -78,6 +80,9 @@
 		400ED8F3247959D500167598 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		400ED8F5247959FF00167598 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		400ED8F824795AC700167598 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		400ED8FB24795CB300167598 /* MainInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInterceptor.swift; sourceTree = "<group>"; };
+		400ED8FF24795F5E00167598 /* develop.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = develop.xcconfig; sourceTree = "<group>"; };
+		400ED900247960AB00167598 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		4056E5242476F4E600DC79D0 /* NYArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4056E5272476F4E600DC79D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4056E5292476F4E600DC79D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -219,6 +224,7 @@
 		400ED8C52478AD1800167598 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				400ED8FA24795C9900167598 /* Interceptors */,
 				400ED8C62478AD3F00167598 /* ProviderAssembly.swift */,
 			);
 			path = APIClient;
@@ -344,6 +350,23 @@
 			path = AppFlow;
 			sourceTree = "<group>";
 		};
+		400ED8FA24795C9900167598 /* Interceptors */ = {
+			isa = PBXGroup;
+			children = (
+				400ED8FB24795CB300167598 /* MainInterceptor.swift */,
+			);
+			path = Interceptors;
+			sourceTree = "<group>";
+		};
+		400ED8FE24795F3000167598 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				400ED8FF24795F5E00167598 /* develop.xcconfig */,
+				400ED900247960AB00167598 /* Environment.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
 		4056E51B2476F4E600DC79D0 = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +390,7 @@
 		4056E5262476F4E600DC79D0 /* NYArticles */ = {
 			isa = PBXGroup;
 			children = (
+				400ED8FE24795F3000167598 /* Environment */,
 				400ED8F2247959CA00167598 /* AppFlow */,
 				400ED8D224793DA900167598 /* Common */,
 				400ED8C52478AD1800167598 /* APIClient */,
@@ -617,6 +641,7 @@
 				400ED8C92478AE9E00167598 /* HomeAssembly.swift in Sources */,
 				400ED8D524793E4D00167598 /* ErrorTracker.swift in Sources */,
 				4056E5282476F4E600DC79D0 /* AppDelegate.swift in Sources */,
+				400ED901247960AB00167598 /* Environment.swift in Sources */,
 				400ED8D1247930B900167598 /* HomeCell.swift in Sources */,
 				400ED8F4247959D500167598 /* Coordinator.swift in Sources */,
 				400ED8B024789F9300167598 /* ArticlesModel.swift in Sources */,
@@ -624,6 +649,7 @@
 				400ED8C42478ACA700167598 /* ArticlesAssembly.swift in Sources */,
 				400ED8BF2478A7BD00167598 /* Assembler.swift in Sources */,
 				400ED8B22478A43900167598 /* ArticlesRepository.swift in Sources */,
+				400ED8FC24795CB300167598 /* MainInterceptor.swift in Sources */,
 				400ED8F6247959FF00167598 /* AppCoordinator.swift in Sources */,
 				4056E52A2476F4E600DC79D0 /* SceneDelegate.swift in Sources */,
 				400ED8C12478A7DC00167598 /* UIViewController+Resolve.swift in Sources */,
@@ -794,7 +820,7 @@
 		};
 		4056E54F2476F4E900DC79D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F6C3C50F116F4BEC8C5E17C /* Pods-NYArticles.debug.xcconfig */;
+			baseConfigurationReference = 400ED8FF24795F5E00167598 /* develop.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -812,7 +838,7 @@
 		};
 		4056E5502476F4E900DC79D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74313F36E023879F0AD0A282 /* Pods-NYArticles.release.xcconfig */;
+			baseConfigurationReference = 400ED8FF24795F5E00167598 /* develop.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
